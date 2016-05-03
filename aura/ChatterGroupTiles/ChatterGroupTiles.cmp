@@ -1,4 +1,4 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes,force:appHostable" controller="ChatterGroupTiles" access="global">
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes" controller="ChatterGroupTiles" access="global">
     <aura:attribute name="discussionGroups" type="Object[]" default=""/>
     <aura:attribute name="publicOnly" type="Boolean" default="true"/>
     <aura:attribute name="filter" type="String" default=""/>
